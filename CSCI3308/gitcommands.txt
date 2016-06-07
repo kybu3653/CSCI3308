@@ -1,27 +1,19 @@
   600  git clone https://github.com/kybu3653/CSCI3308.git
-  601  ls
-  602  cd CSCI3308/
-  603  ls
+
   604  vim README.md 
+
   605  git add README.md 
   606  git commit -m "Modify README"
   607  git push 
-  608  git fetch
-  609  vim README.md 
+  
   610  git pull
-  611  vim README.md 
-  612  cat README.md 
-  613  history
   614  git status
-  615  clear
   616  git pull
   617  cat README.md 
   618  echo "NEW LINE" >> README.md 
   619  git push
   620  git config --global push.default matching
   621  git push
-  622  vim test
-  623  ls
   624  git add test
   625  git commit
   626  git commit -m "NEW FILE"
@@ -43,13 +35,4 @@
   642  echo "Practice Adding to github" >>test
   643  cat test
   644  clear
-  645  history
-  646  history 30
-  647  history 45 > gitcommands.txt
-  648  ls
-  649  cat gitcommands.txt 
-  650  cat gitcommands.txt |more
-  651  rm gitcommands.txt 
-  652  history 70 >>gitcommands.txt
-git checkout Testing_New_Files
-M	test
+       git checkout Testing_New_Files
