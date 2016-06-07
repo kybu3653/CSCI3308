@@ -53,4 +53,3 @@
   652  history 70 >>gitcommands.txt
 git checkout Testing_New_Files
 M	test
-git push origin Testing_New_Files
